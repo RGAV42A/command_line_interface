@@ -15,3 +15,8 @@ pytest = "^5.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cli = 'cli_tutorial.cli:process'
+zwp = 'cli_tutorial.zip_with_password:process'
+baza = 'cli_tutorial.baza:cli'
